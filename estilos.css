@@ -7,43 +7,43 @@
 }
 
 body {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background: #033610;
+  background: #4de2eb;
 }
 
-.contenedor-principal {
+.contenido-interno{
+  display: flex;
+  flex-direction: column;
   width: 80vw;
   max-width: 600px;
-  min-height: 350px;
-  display: flex;
-  margin-top: 250px;
-  flex-wrap: wrap;
+  min-height: ;
   justify-content: center;
   align-items: center;
   background: white;
   border: 5px solid black;
-}
-
-.contenedor-botones {
   padding: 20px;
 }
 
+.contenedor-botones {
+  padding: ;
+}
+
 #cronometro {
-  width: 100%;
-  font-size: 80px;
-  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 900;
   user-select: none;
   font-family: monospace, sans-serif;
 }
 
+
+
 .boton {
   width: 80px;
   height: 80px;
-  font-size: 50px;
+  font-size: 2em;
   margin: 10px;
   padding: 10px;
   cursor: pointer;
@@ -51,7 +51,7 @@ body {
 
 #boton-inicio-pausa.iniciar,
 #boton-inicio-pausa.iniciar i {
-  background: #08e008;
+background: #08e008;
 }
 
 #boton-inicio-pausa.pausar,

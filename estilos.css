@@ -13,7 +13,9 @@ body {
   align-items: center;
   background: #4de2eb;
 }
-
+main{
+  margin: auto 0;
+}
 .contenido-interno{
   display: flex;
   flex-direction: column;
@@ -25,7 +27,6 @@ body {
   background: white;
   border: 5px solid black;
   padding: 20px;
-  margin: auto;
 }
 
 #cronometro {

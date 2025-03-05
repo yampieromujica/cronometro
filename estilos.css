@@ -9,10 +9,10 @@
 body {
   heigth: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #4de2eb;
-  margin: auto 0;
 }
 .contenido-interno{
   display: flex;

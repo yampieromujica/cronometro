@@ -24,10 +24,7 @@ body {
   background: white;
   border: 5px solid black;
   padding: 20px;
-}
-
-.contenedor-botones {
-  padding: ;
+  margin: auto;
 }
 
 #cronometro {

@@ -24,6 +24,7 @@ body {
   background: white;
   border: 5px solid black;
   padding: 20px;
+  margin: auto 0;
 }
 
 #cronometro {
